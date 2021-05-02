@@ -1,0 +1,532 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bloc {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bloc video {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -100;
+}
+
+nav {
+  position: fixed;
+  height: 100px;
+  opacity: 0.7;
+  width: 100%;
+  background: black;
+  z-index: 300;
+}
+
+.menu {
+  height: 100px;
+  width: 100%;
+}
+
+.logo {
+  height: 55px;
+  width: 55px;
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  left: 25%;
+  height: 100px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li {
+  font-size: 20px;
+  margin: 50px;
+  cursor: pointer;
+  color: white;
+}
+
+.compteur {
+  height: 250px;
+  width: 500px;
+  border-radius: 25px;
+  position: absolute;
+  left: 37%;
+  top: 70%;
+}
+
+.compteur-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+
+.text {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-weight: 1600;
+  text-transform: uppercase;
+  color: white;
+}
+
+.compteur span {
+  color: white;
+}
+
+.temps {
+  height: 90px;
+  width: 90px;
+  background: #ff7c2b;
+  border-radius: 30px;
+  border: 1px solid white;
+}
+
+.temps span {
+  display: flex;
+  justify-content: center;
+}
+
+#centre {
+  margin-top: 16px;
+}
+
+.opacite {
+  height: 70px;
+  width: 400px;
+  border-radius: 25px;
+  background: black;
+  border: 1px solid white;
+  opacity: 0.8;
+  margin-left: 42px;
+}
+
+.opacite h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 15px;
+}
+
+.presentation {
+  height: 450px;
+  width: 100%;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.presentation h1 {
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.presentation h2 {
+  margin-bottom: 40px;
+}
+
+.presentation p {
+  margin-bottom: 50px;
+}
+
+.presentation button {
+  background: black;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.separation {
+  width: 100%;
+  height: 6px;
+  background: black;
+  margin: 0 auto;
+}
+
+.separation1 {
+  width: 100%;
+  height: 6px;
+  background: black;
+  margin: 0 auto;
+}
+
+.timeline {
+  height: 1455px;
+  width: 100%;
+  background: white;
+  position: relative;
+  padding: 80px 0 80px 0;
+  background: #ff7c2b;
+}
+
+.rond {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background: black;
+  position: absolute;
+  border: 3px solid #ff7c2b;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.r1 {
+  position: absolute;
+  top: 80px;
+}
+
+.r2 {
+  position: absolute;
+  top: 386px;
+}
+
+.r3 {
+  position: absolute;
+  top: 692px;
+}
+
+.r4 {
+  position: absolute;
+  top: 1000px;
+}
+
+.box {
+  color: black;
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 10px 15px black;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.b1 {
+  position: absolute;
+  top: 80px;
+  left: 30%;
+}
+
+.b2 {
+  position: absolute;
+  top: 386px;
+  left: 70%;
+}
+
+.b3 {
+  position: absolute;
+  top: 692px;
+  left: 30%;
+}
+
+.b4 {
+  position: absolute;
+  top: 1000px;
+  left: 70%;
+}
+
+.box h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#logos {
+  height: 40px;
+  width: 40px;
+}
+
+.ligne {
+  height: 1000px;
+  width: 6px;
+  margin: 0 auto;
+  background: black;
+}
+
+.box button {
+  background: #ff7c2b;
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 30px;
+}
+
+.projetsequipe {
+  height: 1050px;
+  width: 100%;
+  position: relative;
+}
+
+.separation2 {
+  width: 100%;
+  height: 6px;
+  background: black;
+  margin: 0 auto;
+}
+
+.projetsequipe h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  top: 100px;
+}
+
+.centrer {
+  position: absolute;
+  left: 17%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.column img {
+  height: 120px;
+  width: 206px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  border-radius: 3px 0 0 3px;
+  position: absolute;
+  right: 50px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ecrire {
+  text-align: center;
+}
+
+/* Six columns side by side */
+.column {
+  position: relative;
+  float: left;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.4;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.separation3 {
+  width: 100%;
+  height: 6px;
+  background: black;
+  margin: 0 auto;
+}
+
+.reaprojet {
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+
+#couleur {
+  width: 50%;
+  height: 800px;
+  background-color: #ff7c2b;
+}
+
+.newprojet {
+
+padding-top : 80px ;
+
+}
+
+.newprojet h1 {
+  font-size: 70px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.newprojet p {
+  padding-top: 90px;
+  font-size: 34px;
+  text-align: center;
+}
+
+.formulaire {
+  position: absolute;
+  left: 65%;
+  bottom: 24%;
+}
+
+.formulaire h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.sub {
+  margin-top: 25px;
+}
+
+.taille {
+  width: 500px;
+  margin-top: 40px;
+  height: 30px;
+}
+
+.separation4 {
+  width: 100%;
+  height: 6px;
+  background: black;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 300px;
+  width: 100%;
+  background: #564e4e;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 50px;
+  color: white;
+}
+
+.contenu {
+  margin-top: 60px;
+}
+
+.contact {
+  position: relative;
+}
+
+.articles {
+  position: relative;
+}
+
+.reseaux {
+  position: relative;
+}
+
+.contact h1 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+.articles h1 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.reseaux h1 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.contenu img {
+  height: 40px;
+  width: 40px;
+}
+
+.contenu a {
+  color: #ff7c2b;
+  font-weight: bold;
+}
+
+.contenuc3 {
+  margin-right: 10px;
+}
+
+.contenu img {
+  margin-right: 20px;
+}

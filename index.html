@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Mon Agence Web </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<header id="accueil">
+		<div class="bloc">
+
+			<video autoplay loop muted>
+				<source src="VIDEOAGENCE3.mp4">
+				</source>
+			</video>
+
+			<nav>
+
+				<div class="logo"> <img src="images/Logoagence.png"> </div>
+
+				<div class="menu">
+					<ul>
+						<li><a href="#accueil"> Accueil </a> </li>
+						<li><a href="#agence"> Agence </a> </li>
+						<li><a href="#services"> Services </a> </li>
+						<li><a href="#realisations"> Réalisations </a> </li>
+						<li><a href="#contact"> Contact </a> </li>
+					</ul>
+				</div>
+
+			</nav>
+
+			<div class="compteur">
+				<div class="opacite">
+					<h1> Ouverture de l'Agence dans </h1>
+				</div>
+				<div class="compteur-container">
+
+					<div class="temps jour">
+						<div id="centre">
+							<p class="text" id="jours"> 0 </p>
+							<span> jours </span>
+						</div>
+					</div>
+					<div class="temps heure">
+						<div id="centre">
+							<p class="text" id="heures"> 0 </p>
+							<span> heures </span>
+						</div>
+					</div>
+					<div class="temps minute">
+						<div id="centre">
+							<p class="text" id="minutes"> 0 </p>
+							<span> minutes </span>
+						</div>
+					</div>
+					<div class="temps seconde">
+						<div id="centre">
+							<p class="text" id="secondes"> 0 </p>
+							<span> secondes </span>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</header>
+
+
+	<section id="agence" class="presentationagence">
+		<div class="separation"></div>
+		<div class="presentation">
+			<h1> Agence Web sur Rennes </h1>
+			<h2> Votre Agence Web en Bretagne </h2>
+			<p> Nous intégrons au sein de l'agence toutes les compétences métiers pour fournir une <br> prestation
+				globale,
+				afin de maîtriser la qualité, la cohérence et les délais. Nous nous <br> appuyons sur notre équipe
+				d'expert
+				pour vous fournir une prestation de qualité </p>
+			<button> En savoir plus </button>
+		</div>
+		<div class="separation1"></div>
+	</section>
+
+	<section id="services" class="prestations">
+
+		<div class="timeline">
+
+			<div class="ligne"></div>
+			<div class="rond r1" data-anim="1"> <img id="logos" src="images/strategie-digitale.png"> </div>
+			<div class="rond r2" data-anim="2"> <img id="logos" src="images/developpement-web.png"> </div>
+			<div class="rond r3" data-anim="3"> <img id="logos" src="images/effets-visuels.png"> </div>
+			<div class="rond r4" data-anim="4"> <img id="logos" src="images/la-communication.png"> </div>
+
+			<div class="box b1" data-anim="1">
+				<h2>Stratégie Digitale</h2>
+				<p></p>
+				<button> Nos prestations </button>
+			</div>
+
+			<div class="box b2" data-anim="2">
+				<h2>Développement</h2>
+				<p></p>
+				<button> Nos prestations </button>
+			</div>
+
+			<div class="box b3" data-anim="3">
+				<h2>Identité visuelle</h2>
+				<p></p>
+				<button> Nos prestations </button>
+			</div>
+
+			<div class="box b4" data-anim="4">
+				<h2>Communication</h2>
+				<p></p>
+				<button> Nos prestations </button>
+			</div>
+
+		</div>
+
+	</section>
+
+	<section id="realisations" class="projets">
+
+		<div class="projetsequipe">
+			<div class="separation2"></div>
+			<h1> Projets réalisés par l'Equipe </h1>
+			<div class="container">
+				<!-- Container for the image gallery -->
+				<div class="centrer">
+
+					<!-- Full-width images with number text -->
+					<div class="mySlides">
+						<div class="numbertext">1 / 6</div>
+						<img src="sites projets/SITES FOOTBALL.png" style="width:78%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">2 / 6</div>
+						<img src="sites projets/SITE RESTAURANT.png" style="width:78%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">3 / 6</div>
+						<img src="sites projets/SITE DEPARTEMENT.png" style="width:78%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">4 / 6</div>
+						<img src="sites projets/SITE FESTIVAL.png" style="width:78%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">5 / 6</div>
+						<img src="sites projets/SITE KER CADELAC.png" style="width:78%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">6 / 6</div>
+						<img src="sites projets/SITE OFFICE TOURISME.png" style="width:78%">
+					</div>
+
+					<!-- Next and previous buttons -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+					<!-- Thumbnail images -->
+					<div class="row">
+						<div class="column">
+							<img class="demo cursor" src="sites projets/SITES FOOTBALL.png" onclick="currentSlide(1)">
+							<div class="ecrire">
+								<p> Football </p>
+							</div>
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="sites projets/SITE RESTAURANT.png" onclick="currentSlide(2)">
+							<div class="ecrire">
+								<p> Restaurant </p>
+							</div>
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="sites projets/SITE DEPARTEMENT.png" onclick="currentSlide(3)">
+							<div class="ecrire">
+								<p> Département </p>
+							</div>
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="sites projets/SITE FESTIVAL.png" onclick="currentSlide(4)">
+							<div class="ecrire">
+								<p> Festival </p>
+							</div>
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="sites projets/SITE KER CADELAC.png" onclick="currentSlide(5)">
+							<div class="ecrire">
+								<p> Marque </p>
+							</div>
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="sites projets/SITE OFFICE TOURISME.png"
+								onclick="currentSlide(6)">
+							<div class="ecrire">
+								<p> Tourisme </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="separation3"></div>
+
+	</section>
+
+	<section id="contact" class="nouveauprojet">
+
+		<div class="reaprojet">
+
+			<div id="couleur">
+
+				<div class="newprojet">
+
+					<h1> Un projet ? </h1>
+					<p> L'Agence web peut vous aider à le concrétiser. <br> <br>
+						Vous hésitez encore ? <br>
+						Rencontrons-nous ! <br> <br>
+						Nous vous offrons 1 heure de prise de contact gratuite. <br>
+						Cela ne vous engage à rien, alors n'hésitez pas. <br>
+
+					</p>
+
+				</div>
+
+				<div class="formulaire">
+
+					<h1> Formulaire </h1>
+
+					<form name="formulaire" methode="post" action="index.php">
+
+						<input class="taille" type="text" name="Nom" id="nom" placeholder="Nom" required> <br></br>
+						<input class="taille" type="text" name="Prénom" id="prénom" placeholder="Prénom" required>
+						<br></br>
+						<input class="taille" type="text" name="E-Mail" id="mail" placeholder="E-Mail" required>
+						<br></br>
+						<input class="taille" type="text" name="Message" id="message" placeholder="Message" required>
+						<br></br>
+						<input class="sub" type="submit" name="submit" id="submit">
+
+					</form>
+
+				</div>
+
+			</div>
+
+
+		</div>
+
+
+		<div class="separation4"></div>
+
+
+	</section>
+
+	<footer>
+
+		<div class="footer">
+
+			<div class="contact">
+
+				<h1> Contact </h1>
+				<div class="contenu c1">
+					<p> Mail : agencewebbretagne@outlook.fr </p><br>
+					<p> Téléphone : 02 99 46 78 25 </p><br>
+					<p> Demander un devis </p><br>
+				</div>
+
+			</div>
+
+			<div class="articles">
+
+				<h1> Derniers articles </h1>
+				<div class="contenu c2">
+					<a
+						href="file:///C:/Users/valen/Desktop/Projets%20Codage/Projet%20Cr%C3%A9ation%20Agence%20Web/index.html">
+						Comment créer un site internet qui touche la cible visée ? </a> <br><br>
+					<a
+						href="file:///C:/Users/valen/Desktop/Projets%20Codage/Projet%20Cr%C3%A9ation%20Agence%20Web/index.html">
+						Comment bien communiquer sur les réseaux sociaux ? </a> <br><br>
+					<a
+						href="file:///C:/Users/valen/Desktop/Projets%20Codage/Projet%20Cr%C3%A9ation%20Agence%20Web/index.html">
+						Comment fidéliser ses clients à l'aide d'un site internet ? </a> <br><br>
+				</div>
+
+			</div>
+
+			<div class="reseaux">
+
+				<h1> Nos Réseaux Sociaux </h1>
+				<div class="contenu c3">
+					<a
+						href="https://www.facebook.com/?stype=lo&jlou=Afd-TJA0hgyKwyihQfW_2NfmLXojIYunovUJP8Y6fNbQqoryknIhHm9FPLoWKFsC5qP4WiMzzc-CcNKeV7pqkCMJ&smuh=27529&lh=Ac-_Dlb0V0gnDCME2cY">
+						<img src="images/facebook_icon-icons.com_59205.png"> </a>
+					<a href="https://www.instagram.com/accounts/login/"> <img src="images/Instagram.png"> </a>
+					<a
+						href="https://www.linkedin.com/login/fr?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin">
+						<img src="images/Logo-Linkedin.png"> </a>
+				</div>
+
+			</div>
+
+
+		</div>
+
+
+	</footer>
+
+
+
+
+	<script type="text/javascript" src="main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
