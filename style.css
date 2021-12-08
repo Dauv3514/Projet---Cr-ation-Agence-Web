@@ -164,7 +164,7 @@ nav li {
 
 .presentation button {
   background: black;
-  padding: 10px 10px;
+  padding: 12px 12px;
   border-radius: 10px;
   color: white;
   cursor: pointer;
@@ -387,6 +387,10 @@ nav li {
   text-align: center;
 }
 
+.ecrire p {
+  font-weight: bold;
+}
+
 /* Six columns side by side */
 .column {
   position: relative;
@@ -424,32 +428,50 @@ nav li {
 
 .newprojet {
 
-padding-top : 80px ;
+  padding-top : 80px ;
+  background-image: url("images/office.jpg");
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
 
 }
 
+
 .newprojet h1 {
+
   font-size: 70px;
   text-align: center;
   padding-top: 50px;
+  font-weight: bold;
+
 }
 
 .newprojet p {
+
   padding-top: 90px;
-  font-size: 34px;
+  font-size: 30px;
   text-align: center;
+  font-weight: bold;
+
 }
 
 .formulaire {
   position: absolute;
   left: 65%;
-  bottom: 24%;
+  bottom: 20%;
 }
 
 .formulaire h1 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 30px;
+}
+
+::placeholder {
+  color:#564E4E;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
 .sub {
@@ -460,6 +482,27 @@ padding-top : 80px ;
   width: 500px;
   margin-top: 40px;
   height: 30px;
+}
+
+.centrebutton {
+  display: flex;
+  justify-content: center;
+}
+
+#buttonformulaire {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  height: 50px;
+  width: 180px;
+  border-radius: 60px;
+  color: white;
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .separation4 {
@@ -482,6 +525,15 @@ padding-top : 80px ;
 
 .contenu {
   margin-top: 60px;
+}
+
+.devis {
+  display: flex;
+}
+
+.devis img {
+  margin-bottom: 30px;
+  margin-left: 5px;
 }
 
 .contact {
@@ -521,10 +573,12 @@ padding-top : 80px ;
 .contenu a {
   color: #ff7c2b;
   font-weight: bold;
+  margin-left: 15px;
+  text-decoration: none;
 }
 
-.contenuc3 {
-  margin-right: 10px;
+.contenu {
+  margin-left: 10px;
 }
 
 .contenu img {

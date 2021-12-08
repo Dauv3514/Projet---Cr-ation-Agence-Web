@@ -229,31 +229,38 @@
 				<div class="newprojet">
 
 					<h1> Un projet ? </h1>
-					<p> L'Agence web peut vous aider à le concrétiser. <br> <br>
-						Vous hésitez encore ? <br>
-						Rencontrons-nous ! <br> <br>
-						Nous vous offrons 1 heure de prise de contact gratuite. <br>
+					<p> L' Agence web peut vous aider à le concrétiser. 
+						<br><br><br> Nous vous offrons 1 heure de prise de contact gratuite. <br>
 						Cela ne vous engage à rien, alors n'hésitez pas. <br>
-
 					</p>
-
+					
 				</div>
 
 				<div class="formulaire">
 
-					<h1> Formulaire </h1>
+					<h1> Contactez-nous </h1>
 
 					<form name="formulaire" methode="post" action="index.php">
-
-						<input class="taille" type="text" name="Nom" id="nom" placeholder="Nom" required> <br></br>
-						<input class="taille" type="text" name="Prénom" id="prénom" placeholder="Prénom" required>
-						<br></br>
-						<input class="taille" type="text" name="E-Mail" id="mail" placeholder="E-Mail" required>
-						<br></br>
-						<input class="taille" type="text" name="Message" id="message" placeholder="Message" required>
-						<br></br>
-						<input class="sub" type="submit" name="submit" id="submit">
-
+						<div>
+							<input class="taille" placeholder="Prenom" type="text" name="Nom" id="nom" required> <br></br>
+						</div>
+						<div>
+							<input class="taille" placeholder="Nom" type="text" name="Prénom" id="prénom" required>
+							<br></br>
+						</div>
+						<div>
+							<input class="taille" type="text" name="E-Mail" placeholder="Mail" id="mail" required>
+							<br></br>
+							<br></br>
+						</div>
+						<div>
+							<textarea type="text" placeholder="Message" rows="5" cols="66" id="msg" required name="user_message"></textarea>
+							<br></br>
+						</div>
+						<div class="centrebutton">
+							<br></br>
+							<button id="buttonformulaire" type="submit"> Envoyer </button>
+						</div>
 					</form>
 
 				</div>
@@ -279,7 +286,10 @@
 				<div class="contenu c1">
 					<p> Mail : agencewebbretagne@outlook.fr </p><br>
 					<p> Téléphone : 02 99 46 78 25 </p><br>
-					<p> Demander un devis </p><br>
+					<div class="devis">
+						<p> Demander un devis -></p>
+						<a href=""><img src="images/devis2.png"></img></a><br>
+					</div>
 				</div>
 
 			</div>
